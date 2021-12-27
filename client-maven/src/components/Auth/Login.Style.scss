@@ -1,0 +1,46 @@
+.Login {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100vh;
+        width: 100%;
+        z-index: 10;
+       
+        background: linear-gradient(90.3deg, rgba(0, 0, 0, 0.174) 40.63%, rgba(0, 0, 0, 0) 99.7%);
+    }
+    .Login-card {
+        background: rgba(255, 255, 255, 0.75);
+        height: 45rem;
+        width: 33rem;
+        float: right;
+        border-radius: 1rem;
+        margin-right: 10rem;
+        margin-top: 5rem;
+
+        .Login-heading {
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 1.2rem 0 1.2rem;
+            .Login-welcome {
+                font-size: 1.5rem;
+                
+                strong {
+                    color: #2F80ED;
+                }
+            }
+            span a {
+                color: #2F80ED;
+                cursor: pointer;
+                text-decoration: none;
+                
+                
+            }
+        }
+        
+    }
+}
