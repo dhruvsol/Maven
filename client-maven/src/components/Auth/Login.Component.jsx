@@ -24,7 +24,7 @@ export const Login = () => {
             <input type="password"  placeholder="Password" />
           </div>
           <div className="Login-summit">
-            <a href="#">Forgot Password </a>
+            <a href="#forgot">Forgot Password </a>
 
             <button type="summit"> Sign in</button>
           </div>
