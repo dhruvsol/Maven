@@ -3,16 +3,6 @@
     width: 100%;
     position: relative;
     font-family: 'Poppins', sans-serif;
-
-    // z-index: -10;
-    // &:before {
-    //     position: absolute;
-    //     content: '';
-    //     height: 100vh;
-    //     width: 100%;
-    //     z-index: 1;
-    //     background: linear-gradient(90.3deg, rgba(0, 0, 0, 0.174) 40.63%, rgba(0, 0, 0, 0) 99.7%);
-    // }
     .Login-card {
         background: rgba(255, 255, 255, 0.75);
         height: 45rem;
@@ -46,7 +36,6 @@
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
-            // align-items: center;
             h1 {
                 padding: 2rem 4rem;
                 font-size: 3rem;
@@ -103,4 +92,17 @@
         }
 
     }
+}
+@media (max-width:768px) {
+    .Login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Login-card {
+            
+            margin-right: 0;
+            width: 27rem;
+        }
+    }
+    
 }
