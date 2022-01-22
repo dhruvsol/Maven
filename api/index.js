@@ -9,7 +9,7 @@ app.get("/" , (req,res)=>{
     console.log("working");
     
 })
-console.log(process.env.DATABASE)
+// console.log(process.env.DATABASE)
 // mongoose.connect(source, {
 //     useNewUrlParser: true,
 //     useCreateIndex: true,
